@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e15f95b8-d64a-4689-ab70-a639888ce3d7" name="Changes" comment="Test cases added">
+    <list default="true" id="e15f95b8-d64a-4689-ab70-a639888ce3d7" name="Changes" comment="Code added to implement stack using Linked list">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StackPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestStackPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestStackArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestStackArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestStackLinkedList">
+  <component name="RunManager" selected="JUnit.TestStackPalindrome">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="DataStructures" />
@@ -87,8 +87,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestStackPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestStackPalindrome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestStackPalindrome" />
         <item itemvalue="JUnit.TestStackLinkedList" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.TestStackArray" />
@@ -120,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739239403948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Code added to implement stack using Linked list">
+      <option name="closed" value="true" />
+      <created>1739259282003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739259282003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test cases added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test cases added" />
+    <MESSAGE value="Code added to implement stack using Linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code added to implement stack using Linked list" />
   </component>
 </project>
